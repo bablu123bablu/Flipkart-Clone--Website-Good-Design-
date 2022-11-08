@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        img{
+            width: 90px;
+    
+        }
+        
+        nav{
+            background-color: #2874f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+
+        }
+        .plus-color{
+            color:yellow;
+            font-weight: 900;
+
+        }
+        .logo  p{
+            color:aliceblue;
+            position: relative;
+            top:-5px;
+
+        }
+        .search{
+            background-color: azure;
+            padding:8px;
+            width: 420px;
+            margin: 0px 15px;
+            display: flex;
+            justify-content: space-between;
+            color:#2874f0;
+            box-sizing: -7px -7px 10px rgba(0,0,0,0.1), 7px 7px 10px rgba(0,0,0,0.1);
+            border-radius: 2px;
+            cursor: pointer;
+
+        }
+        .search input{
+            width: 380px;
+            border: none;
+            outline: none;
+            font-size: 13px;
+
+        
+
+        }
+        .loginbtn{
+            padding:7px 40px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 550;
+            border: none;
+            color:#2874f0;
+        }
+        .Navlink{
+            margin:0px 20px;
+            font-size: 18px;
+            color:white;
+            text-decoration: none;
+        } 
+        .Navlink{
+            font-size: 18px;
+
+        }
+        footer{
+            margin-top: 820px;
+            height: 9vh;
+            background-color:#030c1a ;
+            color:white;
+            text-align: center; 
+            position: fixed;
+        
+        }
+        .card-iten{
+        background-color: rgb(248, 248, 244);
+        height: 12vh;
+        display: flex;
+        justify-content: space-around;
+        box-shadow:1px 12px 9px rgb(167, 165, 165) ;
+        }
+        .heading_category_item{
+            padding:5px 14px;
+            cursor: pointer;
+            text-align: center;
+
+
+        }
+        .heading_category_item:hover{
+            color:#2874f0;
+
+        }
+.maindiv{
+    width: 91%;
+    height: 300px;
+    position: absolute;
+    left:50%;
+    top:38%;
+    transform:translate(-50%,-50%) ;
+    background-image: url(' https://images-eu.ssl-images-amazon.com/images/G/31/img22/CEPC/Tablets_and_Storage/New_style/Headers/PC/Memory-card.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 14px 10px rgb(160, 159, 159);
+    animation:slider 5s infinite  linear;
+}
+@keyframes slider{
+    0%{  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/Daily-Ess-store-header-PC-1500X300-X1-REVISED.jpg ');}
+    35%{ background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/HSS/Nikita/1500X300_kcs.gif  '); }
+    75%{background-image:url('https://rukminim1.flixcart.com/fk-p-flap/844/140/image/2a3b423c4fbadf26.jpg?q=50 '); }
+}
+
+.apna-card{
+    margin-top: 360px;
+    margin-left:147px;
+    display: flex;
+    cursor: pointer;
+    column-gap: 12px;
+    
+    
+    
+}
+.apna-card img{
+    width: 260px;
+    box-shadow: 1px 14px 10px rgb(160, 159, 159);
+    
+}
+ 
+
+    
+        
+        
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src=" https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png "/>
+            <p>
+                Explore
+                <span class="plus-color">plus</span>
+            
+            </p>
+        </div>
+        <div class="search">
+            
+            <input type="text" placeholder="Search for products, brands and more"/>
+            <i class="fa-solid fa-magnifying-glass"></i>          
+        </div>
+        <button class="loginbtn">Login</button>
+        <a href="#" class="Navlink">Become a Seller</a>
+        <a href="#" class="Navlink">
+           
+            More <i class="fa-sharp fa-solid fa-angle-down" class="angledownIcon"></i> </a>
+        <a href="#" class="Navlink ">
+            Card  <i class="fa-solid fa-cart-shopping"></i></a>
+           
+
+    </nav>
+    
+    <main>
+        <div class="card-iten">
+            <li class="heading_category_item">
+<img src=" https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100"/>
+<p class="heading_item_name">Gift-offer</p>
+</li>
+<li class="heading_category_item">
+<img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100 "/>
+<p class="heading_item_name">Laptop</p>
+</li>
+<li class="heading_category_item">
+<img src=" https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100 ">
+<p class="heading_item_name">Mobile</p>
+</li>
+<li class="heading_category_item">
+<img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100 "/>
+<p class="heading_item_name">Led-Ac</p>
+</li>
+<li class="heading_category_item">
+<img src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100 "/>
+<p class="heading_item_name">ladki-ladka</p>
+</li>
+<li class="heading_category_item">
+<img src=" https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"/>
+<p class="heading_item_name">Surf-Excel</p>
+</li>
+<li class="heading_category_item">
+<img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100 "/>
+<p class="heading_item_name">Motorcycle</p>
+</li>
+<li class="heading_category_item">
+<img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100 "/>
+<p class="heading_item_name">Gift-baby</p>
+</li>
+        </div>
+    </main>
+    <div class="maindiv">
+
+    </div>
+
+            </div>
+            
+        </div>
+    </div>
+<section>
+    <div class="apna-card">
+        <img src="https://rukminim1.flixcart.com/image/200/200/xif0q/track-suit/k/s/c/xxl-tracksuit-5031grey-chrome-coral-original-imagenwqp4tectf8-bb.jpeg?q=70 "/>
+        <img src=" https://rukminim1.flixcart.com/image/200/200/xif0q/jacket/4/7/b/m-2325-darzi-original-imafnnz8schtzv3s-bb.jpeg?q=70">
+        <img src="https://rukminim1.flixcart.com/image/200/200/l1jmc280/track-pant/q/r/z/xxl-solid-men-black-dark-grey-track-pants-foxter-original-imagd36jey284ej4.jpeg?q=70 ">
+        <img src=" https://rukminim1.flixcart.com/image/200/200/xif0q/jacket/4/7/b/m-2325-darzi-original-imafnnz8schtzv3s-bb.jpeg?q=70"/>
+        <img src="https://rukminim1.flixcart.com/image/200/200/kt7jv680/sweatshirt/a/y/t/xxl-purple-w02-juneberry-original-imag6hhjga5gmczs.jpeg?q=70 "/>
+        <img src=" https://rukminim1.flixcart.com/flap/464/708/image/633789f7def60050.jpg?q=70 "/>
+    </div>
+</section>
+   
+    
+    <main>
+        <footer>
+            <h2>flipkart clone website @bablu-Developer?</h2>
+        </footer>
+    </main>
+    
+</body>
+</html>
